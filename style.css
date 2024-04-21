@@ -1,126 +1,55 @@
-
-h1{
-  color:blue;
-}
-h2{
-  color:rgb(219, 243, 219)
-}
-body{
-  font-family:Arial, sans-serif;
-  margin: 0;
-  color: #3e363f;
-  padding-top: 70px;
-}
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-nav
-  ul 
-  <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
-  <a class="menu-item" href="#habilidades">Habilidades</a>
-  <a class="menu-item" href="#experiencia">Experiencia</a>
-  <a class="menu-item" href="#proyectos">Proyectos</a>
-  <a class="menu-item" href="#contacto">Contacto</a>
-nav
-.menu-item {
-  text-decoration: none;
-  color: #333;
-  padding: 10px;
-  display: inline-block;
-}
-.menu-item:hover {
-  background-color: #ddd;
-  transition: all 0.4s ease-in-out;
-}
-header {
-  background-color: #333;
-  color: #fff;
-  text-align:justify;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-section {
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
-}
-#acerca-de-mi {
-  text-align: justify;
-}
-#habilidades ul {
-  list-style: none;
-  padding: 0;
-}
-
-#habilidades ul li {
-  display: inline-block;
-  padding: 5px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-#experiencia ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#experiencia ul li {
-  margin-bottom: 10px;
-}
-#proyectos ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#proyectos ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-#proyectos ul li a:hover {
-  text-decoration: underline;
-}
-ul id "sociales"{
-  <li>
-    <a href="https://www.facebook.com/tucuenta" class="fa fa-facebook"></a>
-  </li>
-  <li>
-    <a href="https://twitter.com/tucuenta" class="fa fa-twitter"></a>
-  </li>
-  <li>
-    <a href="https://www.linkedin.com/in/tucuenta" class="fa fa-linkedin"></a>
-  </li>
-  <!-- Agrega más redes sociales si lo deseas -->
-</ul>
- }
- #sociales {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
-}
-
-#sociales li {
-  list-style: none;
-  display: inline-block;
-  padding: 5px;
-}
-
-.fa {
-  color: #53f5da;
-  text-decoration: none;
-  margin-left: 0px;
-}
-
-footer {
-  background-color: #937df5;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNmmNLYBy8i-VJj29RMWeHa3lyJOc7mZ0lA&s);
+    background-size:100%;;
+  }
+     
+  h1 {
+    color:rgb(68, 3, 129);
+    text-align: center;
+    margin-top: 50px;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #e430c6;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #bc73dd;
+    color: #ebf9fa;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+      display:flex;
+      justify-content:center;
+  }
+     
+  .input-area{
+      margin: 30px
+     }
+     
